@@ -32,6 +32,7 @@ There are two types of scheduled functions `single` and `pipe`.
 One off and recurring functions would fall under `single` and can be
 scheduled like so.
 ```
+// index.js
 const schedule = {
 	single: [
 		{
@@ -59,6 +60,7 @@ functions. Give the 'pipeline' a name, include and initial data that
 should be passed to the first function, and list the function names under
 `pipeline`
 ```
+// index.js
   ...
 	pipe: [
 		{
@@ -83,6 +85,12 @@ See the `example.js` file for the completed description.
 ```
 node index.js
 ```
+
+###### ToDo
+* Remove hardcoded gateway URL
+* Ability to schedule to same function multiple times, name and
+	function name should be seperate properties
+
 
 ###### Additional
 Give it a try and please submit issues as you have them.
