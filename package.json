@@ -1,6 +1,6 @@
 {
   "name": "skej",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OpenFaaS function scheduler, backed by Redis",
   "main": "index.js",
   "scripts": {
