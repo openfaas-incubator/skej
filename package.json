@@ -1,6 +1,6 @@
 {
   "name": "skej",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OpenFaaS function scheduler, backed by Redis",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "redular": "^1.2.0"
-  },
-  "devDependencies": {
+    "redular": "^1.2.0",
     "openfaas": "0.0.4"
   }
 }
