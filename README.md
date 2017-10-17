@@ -84,8 +84,12 @@ should be passed to the first function, and list the function names under
 	]
 }
 
-// wrap schedule in the skej() function
-skej(schedule)
+/*
+wrap schedule in the skej() function
+and include the OpenFaaS gateway URL, defaults to http://localhost:8080
+if no URL is supplied
+*/
+skej(schedule, 'http://11.11.11.11:8080')
 ```
 See the `example.js` file for the completed description.
 

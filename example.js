@@ -38,6 +38,7 @@ skej({
 			onFinished: x => console.log('Piped Function Wordcount:\n', x.body)
 		},
 	]
-
-});
+// gateway URL is optional and defaults to http://localhost:8080
+// if one is not supplied
+}, 'http://45.45.45.45:8080');
 
