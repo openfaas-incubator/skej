@@ -9,6 +9,8 @@ Skej allows you to declaratively schedule events for OpenFaaS functions.
 #### How To
 
 ###### Prerequisites
+Requires NodeJS version 6.4.0 and up.
+
 Redis should be running on port 6379. This is easy to do with docker
 ```
 docker run -d -p 6379:6379 redis
