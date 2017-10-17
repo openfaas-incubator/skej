@@ -4,8 +4,8 @@ const FaaS = require('openfaas');
 const Redular = require('redular');
 const BbPromise = require('bluebird');
 
-const skej = schedule => {
-	const {invoke, compose} = FaaS('http://localhost:8080');
+const skej = (url, schedule) => {
+	const {invoke, compose} = FaaS(url);
 	const {single, pipe} = schedule;
 	const options = {
 		autoconfig: true,
